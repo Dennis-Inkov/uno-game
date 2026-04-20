@@ -4,10 +4,7 @@
     "module": "CommonJS",
     "target": "ES2020",
     "outDir": "./dist",
-    "paths": {
-      "@uno/shared": ["../packages/shared/src/index.ts"]
-    },
-    "baseUrl": "."
+    "rootDir": "./src"
   },
   "include": ["src"]
 }
